@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import TicTacToe from './tic-tac-toe/TicTacToe';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TicTacToe />
   </React.StrictMode>,
   document.getElementById('root')
 );
